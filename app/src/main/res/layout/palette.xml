@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <ScrollView
+        android:layout_width="@dimen/panel_size"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/whitecolor"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:onClick="onColorChange"
+                android:src="#ffffffff" />
+
+            <ImageButton
+                android:id="@+id/blackcolor"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:onClick="onColorChange"
+                android:src="#ff000000" />
+
+            <ImageButton
+                android:id="@+id/redcolor"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:onClick="onColorChange"
+                android:src="#ffff0000" />
+
+            <ImageButton
+                android:id="@+id/greencolor"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:onClick="onColorChange"
+                android:src="#ff00ff00" />
+
+            <ImageButton
+                android:id="@+id/bluecolor"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:onClick="onColorChange"
+                android:src="#ff0000ff" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="@dimen/button_size" />
+
+            <ImageButton
+                android:id="@+id/brush1"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:onClick="onSizeChange"
+                android:src="@drawable/brush1" />
+
+            <ImageButton
+                android:id="@+id/brush2"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:onClick="onSizeChange"
+                android:src="@drawable/brush2" />
+
+            <ImageButton
+                android:id="@+id/brush3"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:onClick="onSizeChange"
+                android:src="@drawable/brush3" />
+
+            <ImageButton
+                android:id="@+id/brush4"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:onClick="onSizeChange"
+                android:src="@drawable/brush4" />
+
+            <ImageButton
+                android:id="@+id/brush5"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:onClick="onSizeChange"
+                android:src="@drawable/brush5" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
