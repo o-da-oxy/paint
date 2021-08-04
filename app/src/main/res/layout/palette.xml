@@ -49,6 +49,13 @@
                 android:onClick="onColorChange"
                 android:src="#ff0000ff" />
 
+            <ImageButton
+                android:id="@+id/yellowcolor"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:onClick="onColorChange"
+                android:src="#ffff00" />
+
             <View
                 android:layout_width="40dp"
                 android:layout_height="@dimen/button_size" />

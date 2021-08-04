@@ -45,7 +45,7 @@ class MainActivity : Activity() {
 
     override fun onResume(){
         super.onResume()
-        val savedBmp = getPreferences(Context.MODE_PRIVATE).getString("pic2\\", null)
+        val savedBmp = getPreferences(Context.MODE_PRIVATE).getString("pic", null)
         if (savedBmp != null)
             mainDrawingView.mBitmap = Palette.decodeBase64(savedBmp)
     }
